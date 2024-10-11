@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #282c34; /* cor de fundo como fallback */
-    background-image: url('file:///C:/Users/Dell/Desktop/JHONATAN/animação/imagem.png'); /* Caminho para sua imagem */
+    background-image: url('https://via.placeholder.com/1920x1080'); /* Substitua pelo link direto da sua imagem */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     color: white;
