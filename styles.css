@@ -1,8 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #282c34; /* cor de fundo como fallback */
-    background-image: url('file:///C:/Users/Dell/Desktop/JHONATAN/animação/imagem.png'); /* Caminho para sua imagem */
+    background-image: url('imagem.png'); /* Caminho para a imagem */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     color: white;
@@ -44,7 +43,7 @@ body {
 
 .link a {
     display: inline-block;
-    color: white;
+    color: #0033CC; /* Azul intenso */
     text-decoration: underline;
     transition: transform 0.2s, opacity 0.2s;
 }
