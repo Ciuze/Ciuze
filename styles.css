@@ -1,12 +1,13 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-image: url('imagem.png'); /* Caminho para a imagem */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-position: center; /* Centraliza a imagem */
+    background-image: url('https://raw.githubusercontent.com/seunome/seurepositorio/main/imagem.png'); /* Altere para o URL da sua imagem */
+    background-size: cover;
+    background-position: center;
     color: white;
     font-family: Arial, sans-serif;
 }
+
 
 .confete {
     position: absolute;
