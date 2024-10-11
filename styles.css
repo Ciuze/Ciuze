@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #282c34; /* cor de fundo como fallback */
-    background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/main/Imagem.png'); /* Link direto para imagem no GitHub */
+    background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7f173215147ff013fed8f54ae754431915ea62ab/Imagem.png'); /* Link direto para imagem no GitHub */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     color: white;
