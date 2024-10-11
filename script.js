@@ -40,12 +40,14 @@ window.onload = function() {
         Adquira seu desconto!<br><br>
         <div class="desconto" id="cupomDesconto">5% desconto</div><br><br>
         <p>
-            <a href="https://www.ciuze.com.br/" target="_blank">Clique aqui</a>
+            <a href="https://www.ciuze.com.br/" target="_blank" style="color: #0033CC;">Clique aqui</a>
             <span style="color: white;"> para ser redirecionado à página oficial da loja!</span>
         </p>
     `;
+
     document.body.appendChild(mensagem);
 
+    // Evento para copiar o desconto
     const descontoBotao = document.getElementById('cupomDesconto');
     descontoBotao.addEventListener('click', function() {
         navigator.clipboard.writeText(this.innerText).then(() => {
@@ -53,6 +55,15 @@ window.onload = function() {
         }).catch(err => {
             console.error('Erro ao copiar: ', err);
         });
+    });
+
+    const link = document.querySelector('a');
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        this.classList.add('deslizar');
+        setTimeout(() => {
+            window.open(this.href, '_blank');
+        }, 500);
     });
 
     setTimeout(() => {
