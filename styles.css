@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #282c34; /* cor de fundo como fallback */
-    background-image: url('https://via.placeholder.com/1920x1080'); /* Substitua pelo link direto da sua imagem */
+    background-image: url('https://www.w3schools.com/w3images/lights.jpg'); /* Substitua por sua própria imagem pública */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     color: white;
