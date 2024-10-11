@@ -1,13 +1,13 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-image: url('https://raw.githubusercontent.com/seunome/seurepositorio/main/imagem.png'); /* Insira o URL correto */
-    background-size: cover;
-    background-position: center;
+    background-color: #282c34; /* cor de fundo como fallback */
+    background-image: url('file:///C:/Users/Dell/Desktop/JHONATAN/animação/imagem.png'); /* Caminho para sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
     color: white;
     font-family: Arial, sans-serif;
 }
-
 
 .confete {
     position: absolute;
@@ -44,7 +44,7 @@ body {
 
 .link a {
     display: inline-block;
-    color: #0033CC; /* Azul intenso */
+    color: white;
     text-decoration: underline;
     transition: transform 0.2s, opacity 0.2s;
 }
