@@ -2,9 +2,9 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #282c34; /* cor de fundo como fallback */
-    background-image: url('https://www.w3schools.com/w3images/lights.jpg'); /* Substitua por sua própria imagem pública */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-position: center; /* Centraliza a imagem */
+    background-image: url('https://raw.githubusercontent.com/meu-usuario/meu-repo/main/imagens/background.png'); /* Link direto para imagem no GitHub */
+    background-size: cover;
+    background-position: center;
     color: white;
     font-family: Arial, sans-serif;
 }
