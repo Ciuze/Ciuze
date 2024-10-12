@@ -5,7 +5,6 @@ body {
     background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7f173215147ff013fed8f54ae754431915ea62ab/Imagem.png'); /* Link direto para imagem no GitHub */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Não repete a imagem */
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -88,8 +87,7 @@ body {
 /* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
     body {
-        background-image: url('https://github.com/Ciuze/Ciuze/blob/main/celular.jpg?raw=true'); /* Imagem específica para celular */
-        background-size: cover; /* Faz a imagem cobrir todo o fundo */
+        background-size: contain; /* Ajusta a imagem para caber na tela */
         background-repeat: no-repeat; /* Não repete a imagem */
     }
 }
