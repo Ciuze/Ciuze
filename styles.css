@@ -88,7 +88,8 @@ body {
 /* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
     body {
-        background-size: cover; /* Mantém a imagem cobrindo toda a tela */
+        background-image: url('https://github.com/Ciuze/Ciuze/blob/main/celular.jpg?raw=true'); /* Imagem específica para celular */
+        background-size: cover; /* Faz a imagem cobrir todo o fundo */
         background-repeat: no-repeat; /* Não repete a imagem */
     }
 }
