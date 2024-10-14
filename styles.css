@@ -9,6 +9,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Imagem de fundo para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/6105c0ae8da0a222975bb537d1475dffdb359fa5/celular.jpg');
+    }
+}
+
 .confete {
     position: absolute;
     border-radius: 50%;
