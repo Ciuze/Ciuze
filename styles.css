@@ -13,7 +13,7 @@ body {
 /* Imagem de fundo para dispositivos móveis */
 @media (max-width: 768px) {
     body {
-        background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7aa93f571ae3c29b684557300bc278d5915ba39f/Nova%20imagem%20para%20site.png');
+        background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/bb5abf00dcf145de159316d0fd2bb3e15dffb20d/Design%20sem%20nome.png');
         background-size: contain; /* Ajusta a imagem para não distorcer */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
