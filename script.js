@@ -34,6 +34,7 @@ window.onload = function() {
     const mensagem = document.createElement('div');
     mensagem.classList.add('mensagem');
     mensagem.innerHTML = `
+        <img src="https://raw.githubusercontent.com/Ciuze/Ciuze/9dcf685e3b014eb544c08830e5509ce58bc59500/Logo%20para%20mensagem%202.0.png" alt="Logo" style="max-width: 200px; margin-bottom: 20px;">
         Bem-vindo!<br><br>
         Cupom de desconto na compra diretamente em nossa página oficial.<br><br>
         Clique para copiar o código de desconto!<br><br>
