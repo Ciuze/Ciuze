@@ -34,16 +34,18 @@ window.onload = function() {
     const mensagem = document.createElement('div');
     mensagem.classList.add('mensagem');
     mensagem.innerHTML = `
-        <img src="https://raw.githubusercontent.com/Ciuze/Ciuze/9dcf685e3b014eb544c08830e5509ce58bc59500/Logo%20para%20mensagem%202.0.png" alt="Logo" style="max-width: 200px; margin-bottom: 20px;">
-        Bem-vindo!<br><br>
-        Cupom de desconto na compra diretamente em nossa página oficial.<br><br>
-        Clique para copiar o código de desconto!<br><br>
-        Adquira seu desconto!<br><br>
-        <div class="desconto" id="cupomDesconto">5% desconto</div><br><br>
-        <p>
-            <a href="https://www.ciuze.com.br/" target="_blank" style="color: #0033CC;">Clique aqui</a>
-            <span style="color: white;"> para ser redirecionado à página oficial da loja!</span>
-        </p>
+        <img src="https://raw.githubusercontent.com/Ciuze/Ciuze/9dcf685e3b014eb544c08830e5509ce58bc59500/Logo%20para%20mensagem%202.0.png" alt="Logo" style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+        <div style="text-align: center;">
+            Bem-vindo!<br><br>
+            Cupom de desconto na compra diretamente em nossa página oficial.<br><br>
+            Clique para copiar o código de desconto!<br><br>
+            Adquira seu desconto!<br><br>
+            <div class="desconto" id="cupomDesconto">5% desconto</div><br><br>
+            <p>
+                <a href="https://www.ciuze.com.br/" target="_blank" style="color: #0033CC;">Clique aqui</a>
+                <span style="color: white;"> para ser redirecionado à página oficial da loja!</span>
+            </p>
+        </div>
     `;
 
     document.body.appendChild(mensagem);
