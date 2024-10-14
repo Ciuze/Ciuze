@@ -45,7 +45,7 @@ body {
 
 .mensagem {
     position: fixed;
-    top: 50%;
+    top: 60%; /* Ajusta a posição abaixo da logo */
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
