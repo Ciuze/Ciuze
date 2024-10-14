@@ -1,23 +1,22 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #282c34; /* cor de fundo como fallback */
-    background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7f173215147ff013fed8f54ae754431915ea62ab/Imagem.png'); /* Link direto para imagem no GitHub */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-position: center; /* Centraliza a imagem */
+    background-color: #282c34;
+    background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7f173215147ff013fed8f54ae754431915ea62ab/Imagem.png');
+    background-size: cover;
+    background-position: center;
     color: white;
     font-family: Arial, sans-serif;
-    height: 100vh; /* Garante que o corpo tenha pelo menos a altura da viewport */
+    height: 100vh;
 }
 
-/* Imagem de fundo para dispositivos móveis */
 @media (max-width: 768px) {
     body {
         background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/6105c0ae8da0a222975bb537d1475dffdb359fa5/celular.jpg');
-        background-size: cover; /* Faz a imagem cobrir todo o fundo */
-        background-position: center; /* Centraliza a imagem */
-        background-repeat: no-repeat; /* Impede a repetição da imagem */
-        height: 100vh; /* Mantém a altura da viewport */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 }
 
