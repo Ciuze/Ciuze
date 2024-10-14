@@ -51,8 +51,7 @@ window.onload = function() {
     const descontoBotao = document.getElementById('cupomDesconto');
     descontoBotao.addEventListener('click', function() {
         navigator.clipboard.writeText(this.innerText).then(() => {
-            alert('Copiado: Cupom de desconto!');
-            // Redireciona após copiar
+            console.log('Copiado: Cupom de desconto! Redirecionando...');
             window.location.href = "https://www.ciuze.com.br/";
         }).catch(err => {
             console.error('Erro ao copiar: ', err);
