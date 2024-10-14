@@ -1,22 +1,23 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #282c34;
-    background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7f173215147ff013fed8f54ae754431915ea62ab/Imagem.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #282c34; /* cor de fundo como fallback */
+    background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/7aa93f571ae3c29b684557300bc278d5915ba39f/Nova%20imagem%20para%20site.png'); /* Nova imagem para PC */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
     color: white;
     font-family: Arial, sans-serif;
-    height: 100vh;
+    height: 100vh; /* Garante que o corpo tenha pelo menos a altura da viewport */
 }
 
+/* Imagem de fundo para dispositivos móveis */
 @media (max-width: 768px) {
     body {
-        background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/6105c0ae8da0a222975bb537d1475dffdb359fa5/celular.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
+        background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/bb5abf00dcf145de159316d0fd2bb3e15dffb20d/Design%20sem%20nome.png'); /* Nova imagem para celular */
+        background-size: cover; /* Ajusta a imagem para não distorcer */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+        height: 100vh; /* Mantém a altura da viewport */
     }
 }
 
@@ -34,6 +35,12 @@ body {
 @keyframes cair {
     0% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(600px); opacity: 0; }
+}
+
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
 .mensagem {
@@ -88,6 +95,7 @@ body {
     font-weight: bold;
     border: 2px solid white;
     transition: transform 0.2s, background-color 0.2s;
+    animation: pulsar 1.5s infinite; /* Adiciona a animação pulsar */
 }
 
 .desconto:hover {
