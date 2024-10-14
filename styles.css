@@ -14,9 +14,10 @@ body {
 @media (max-width: 768px) {
     body {
         background-image: url('https://raw.githubusercontent.com/Ciuze/Ciuze/6105c0ae8da0a222975bb537d1475dffdb359fa5/celular.jpg');
-        background-size: 100% 100%; /* Ajusta a imagem para preencher completamente a tela */
+        background-size: contain; /* Ajusta a imagem para não distorcer */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
+        height: 100vh; /* Mantém a altura da viewport */
     }
 }
 
