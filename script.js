@@ -36,7 +36,7 @@ window.onload = function() {
     mensagem.innerHTML = `
         <img src="https://raw.githubusercontent.com/Ciuze/Ciuze/9dcf685e3b014eb544c08830e5509ce58bc59500/Logo%20para%20mensagem%202.0.png" width="100" height="100" alt="Logo">
         <br>
-        Bem-vindo!<br><br>
+        Bem-vindo a Ciuze!<br><br>
         Cupom de desconto na compra diretamente em nossa página oficial.<br><br>
         Clique para copiar o código de desconto!<br><br>
         Adquira seu desconto!<br><br>
