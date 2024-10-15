@@ -45,14 +45,19 @@ body {
 
 .mensagem {
     position: fixed;
-    top: 60%; /* Ajusta a posição abaixo da logo */
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%; /* Ajusta para 50% para centralizar verticalmente */
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Centraliza corretamente */
     text-align: center;
     font-size: 20px;
     z-index: 10;
     opacity: 0;
     animation: fadeIn 1s forwards;
+    max-width: 90%; /* Limita a largura para telas menores */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra opcional */
+    padding: 20px; /* Padding para melhorar a aparência */
+    border-radius: 8px; /* Arredondamento nas bordas */
+    background-color: rgba(40, 44, 52, 0.8); /* Fundo semitransparente */
 }
 
 @keyframes fadeIn {
