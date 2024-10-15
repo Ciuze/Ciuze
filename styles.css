@@ -57,10 +57,10 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 100px; /* Largura da fumaça */
-    height: 100px; /* Altura da fumaça */
+    width: 200%; /* Aumenta a largura da fumaça para cobrir mais área */
+    height: 200px; /* Altura da fumaça */
     background: url('https://images.rawpixel.com/dark_image_png_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczExMy1hay01NjkzXzEucG5n.png') no-repeat center center; /* Imagem da fumaça */
-    background-size: contain; /* Ajusta a imagem para caber no elemento */
+    background-size: cover; /* Ajusta a imagem para caber no elemento */
     opacity: 0.5; /* Reduz a opacidade para não cobrir totalmente o fundo */
     animation: subir 4s linear infinite; /* Animação para subir */
 }
@@ -120,27 +120,4 @@ body {
 
 @keyframes deslizar {
     from { transform: translateY(0); opacity: 1; }
-    to { transform: translateY(-20px); opacity: 0; }
-}
-
-.link a.deslizar {
-    animation: deslizar 0.5s forwards;
-}
-
-.desconto {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #ff4081;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-    border: 2px solid white;
-    transition: transform 0.2s, background-color 0.2s;
-    animation: pulsar 1.5s infinite; /* Adiciona a animação pulsar */
-}
-
-.desconto:hover {
-    transform: scale(1.1);
-    background-color: #e91e63;
-}
+    to { transform: translateY(-20px); opacity:
