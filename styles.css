@@ -107,3 +107,25 @@ body {
     transform: scale(1.1);
     background-color: #e91e63;
 }
+
+/* Adicionando o efeito de fumaça */
+.fumaca {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Altura da fumaça */
+    background: url('https://i.imgur.com/2E9tN7h.png') repeat-x; /* Imagem da fumaça (pode substituir por outra) */
+    animation: moverFumaca 5s linear infinite; /* Animação da fumaça */
+    opacity: 0.6; /* Transparência da fumaça */
+    z-index: 5; /* Z-index para que fique abaixo da mensagem */
+}
+
+@keyframes moverFumaca {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Move a fumaça para a esquerda */
+    }
+}
